@@ -1,0 +1,88 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: #FFB7C5;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  background: #FFB7C5;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: white;
+  color: #FFB7C5;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.about,
+.skills {
+  margin-top: 40px;
+}
+
+.about p {
+  line-height: 1.8;
+  color: #555;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-list div {
+  background: #ff66f0;
+  color: #FFB7C5;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+}
